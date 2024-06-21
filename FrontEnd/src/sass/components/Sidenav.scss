@@ -1,0 +1,28 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 61px;
+  left: 0;
+  background-color: #FFFFF7;
+  overflow-x: hidden;
+  transition: 0.5s;
+  .sidenav-ul {
+    list-style: none;
+    padding: 0 20px;
+    .sidenav-li {
+      padding: 8px 0;
+      color: black;
+      padding: 16px 0 16px 0;
+      border-bottom: 1px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(148, 174, 171)
+    }
+  }
+}
+
+.sidenav.open {
+  width: 100%;
+
+}

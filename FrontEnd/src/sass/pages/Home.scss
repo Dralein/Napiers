@@ -1,0 +1,52 @@
+.mainsectionlanding {
+  background-image: url("/src/assets/images/HP_Banner-rosemary04.webp");
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  object-fit: cover;
+  padding: 16px;
+  box-sizing: content-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFF7;
+  h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  .button {
+    background-color: white;
+    color: rgb(43, 43, 47);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 0px;
+    width: auto;
+    align-self: flex-start;
+  }
+  .sectionrating {
+    margin-top:auto;
+  }
+  blockquote {
+    p {
+      font-style: italic;
+      color: white;
+      margin-top: 8px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    }
+    footer {
+      color: white;
+      margin-top: 8px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    }
+  }
+}

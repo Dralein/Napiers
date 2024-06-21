@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: "EB Garamond";
+  font-size: 16px;
+  object-fit: cover;
+}
+
+main {
+  background-color: #FFFFF7;
+}
+
+body {
+  min-width: 320px;
+  background-color: #FFFFF7;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+a {
+  cursor: pointer;
+}
